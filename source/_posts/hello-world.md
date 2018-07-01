@@ -1,19 +1,19 @@
 ---
-title: Hello World
+title: hexo 使用说明
 entitle: ''
-date: 2018-06-20 15:14:03
+date: 2018-01-20 15:14:03
 categories: 
 - talk
 tags: 
 - hexo
 author: 赵小生
-authorAbout: https://github.com/zhmhhu
+authorAbout: 'https://github.com/zhmhhu'
 avatar: /images/userpic.jpg
-authorLink: https://github.com/zhmhhu
-authorDesc: 这是作者的自我描述
+authorLink: 'https://github.com/zhmhhu'
+authorDesc: 在科技和人文的世界里翱翔
 keywords: 
-description: 这是一份说明文档
-photos: 
+description: 描述使用 hexo 搭建博客的方法。本博客即使用 hexo 搭建。
+photos:  /images/default-photos.jpg
 ---
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 

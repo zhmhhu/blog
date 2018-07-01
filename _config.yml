@@ -63,6 +63,7 @@ category_map:
    前端: big-front-end
    后台: server-side
    设计: design
+   杂谈: talk
    资源: resource
    
 tag_map:
@@ -76,10 +77,12 @@ tag_map:
   后台: serverSide
   CSS: CSS
   JavaScript: javascript
+  vue: vue
   必备工具: NiceTools
   黑科技: CoolTech
   每日英语: DailyEnglish
   翻译: translate
+  掘金翻译计划: juejin-translate
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date

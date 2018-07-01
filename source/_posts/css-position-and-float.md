@@ -13,7 +13,7 @@ authorDesc: 在科技和人文的世界里翱翔
 date: 2018-01-24 21:50:27
 keywords:
 description: 本文主要讲述CSS中的三种定位样式static、relative和absolute的区别以及浮动元素的特征。
-photos: http://images2017.cnblogs.com/blog/835911/201801/835911-20180124221911944-629496772.png
+photos: https://ws1.sinaimg.cn/large/006tNc79gy1fsuef417c7j308n03bmwz.jpg
 ---
 
 本文主要讲述CSS中的三种定位样式static、relative和absolute的区别以及浮动元素的特征。
@@ -71,7 +71,7 @@ CSS中定位样式position的取值有三个，默认值：static，相对定位
     </body> 
 
 
- ![图片](http://images2017.cnblogs.com/blog/835911/201801/835911-20180124222845975-1601756898.png)
+ ![图片](https://ws1.sinaimg.cn/large/006tNc79gy1fsuef417c7j308n03bmwz.jpg)
 
  原本应该环绕在红色块周围的文字因不能换行而显示在其下方，并且部分文字被容器遮住了。
 
@@ -111,7 +111,7 @@ CSS中定位样式position的取值有三个，默认值：static，相对定位
         浮动元素和绝对定位的区别浮动元素和绝对定位的区别浮动元素和绝对定位的区别浮动元素和绝对定位的区别</div>  
     </body> 
 
-![图片1](http://images2017.cnblogs.com/blog/835911/201801/835911-20180124221811850-670457027.png)
+![图片1](https://ws4.sinaimg.cn/large/006tNc79gy1fsuef4is7nj308y03da9w.jpg)
 
 把A元素的定位改成浮动后，其后的内容会环绕该元素。
 
@@ -124,7 +124,7 @@ CSS中定位样式position的取值有三个，默认值：static，相对定位
         background:#C00;  
     } 
 
-![图片2](http://images2017.cnblogs.com/blog/835911/201801/835911-20180124221911944-629496772.png)
+![图片2](https://ws4.sinaimg.cn/large/006tNc79gy1fsuef5iqgrj308r035dfo.jpg)
 
 下面顺便引出**文本流和文档流**的概念。
 

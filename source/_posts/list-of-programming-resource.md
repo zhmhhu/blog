@@ -1,7 +1,7 @@
 ---
 title: 编程资源列表
 entitle: ''
-date: 2018-06-30 17:54:07
+date: 2018-01-08 17:54:07
 categories:
   - resource
 tags:
@@ -14,11 +14,11 @@ authorLink: 'https://github.com/zhmhhu'
 authorDesc: 在科技和人文的世界里翱翔
 keywords:
 description: 编程资源列表，包括编程工具，编程语言，框架和脚手架，类库和插件，以及编辑器，等等
-photos: /img/2018/timg.jpg
+photos: https://ws1.sinaimg.cn/large/006tNc79gy1fsuer0hs1fj30xc0m9di1.jpg
 ---
 
 # 
-
+![](https://ws1.sinaimg.cn/large/006tNc79gy1fsuer0hs1fj30xc0m9di1.jpg)
 ## 工具
 
 * [box-shadow generator](http://www.cssmatic.com/box-shadow)

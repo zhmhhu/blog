@@ -65,7 +65,7 @@ photos: http://images2017.cnblogs.com/blog/835911/201801/835911-2018012121261134
 
 显示结果为：
 
-![](http://images2017.cnblogs.com/blog/835911/201801/835911-20180121211517099-2105418309.png)
+![](https://ws3.sinaimg.cn/large/006tNc79gy1fsuef2ol9pj30ah03u744.jpg)
 
 父元素div1和子元素div2的上外边距之间没有边框或内边距阻隔，导致两者的上外边距合并，从而导致父元素div1至其上部元素的距离变为30px（两者合并取大值）。如果父元素有上边框或上外边距，则不会发生外边距合并。
 
@@ -88,7 +88,7 @@ photos: http://images2017.cnblogs.com/blog/835911/201801/835911-2018012121261134
     <div class='div1'>内容1</div>
 
 显示为：
-![](http://images2017.cnblogs.com/blog/835911/201801/835911-20180121212611349-161140052.jpg)
+![](https://ws3.sinaimg.cn/large/006tNc79gy1fsuef3oxawj30e702et8i.jpg)
 
 元素div2的上下边距合并，边框变成了一条直线
 
