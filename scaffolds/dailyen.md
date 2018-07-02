@@ -1,5 +1,5 @@
 ---
-title: 每日英语 {{ date('MM-DD') }}
+title: 每日英语 {{ date }}
 entitle: ''
 date: {{ date }}
 categories:

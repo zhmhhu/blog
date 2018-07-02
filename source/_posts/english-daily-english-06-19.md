@@ -17,7 +17,7 @@ description: 每天分享一个短语，今天的短语是 go with the flow
 date: 2018-06-19 09:20:30
 ---
 
-Today is sTuesday. 假期结束了，回来继续学英语吧.
+Today is Tuesday. 假期结束了，回来继续学英语吧.
 
 ## 今日短语
 

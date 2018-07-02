@@ -17,7 +17,7 @@ description: 每天分享一个短语，今天的短语是 Three strikes law
 date: 2018-06-20 09:29:37
 ---
 
-Today is Friday. It’s our 8th day on the June.
+Today is Wednesday.
 
 ## 今日短语
 
