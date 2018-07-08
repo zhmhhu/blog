@@ -11,7 +11,7 @@ authorAbout: 'https://github.com/zhmhhu'
 avatar: /images/userpic.jpg
 authorLink: 'https://github.com/zhmhhu'
 authorDesc: 在科技和人文的世界里翱翔
-photos: /img/all/dailyen-04.jpg
+photos: /img/2018/dailyen-04.jpg
 keywords: DailyEnglish
 description: 每天分享一个短语，今天的短语是 a dutch treat
 date: 2018-06-28 09:10:26

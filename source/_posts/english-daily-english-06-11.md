@@ -11,7 +11,7 @@ authorAbout: 'https://github.com/zhmhhu'
 avatar: /images/userpic.jpg
 authorLink: 'https://github.com/zhmhhu'
 authorDesc: 在科技和人文的世界里翱翔
-photos: /img/all/dailyen-01.jpg
+photos: /img/2018/dailyen-01.jpg
 date: 2018-06-11 09:00:27
 keywords: DailyEnglish
 description: 每天分享一个短语，今天的短语是 get cold feet

@@ -11,7 +11,7 @@ authorAbout: 'https://github.com/zhmhhu'
 avatar: /images/userpic.jpg
 authorLink: 'https://github.com/zhmhhu'
 authorDesc: 在科技和人文的世界里翱翔
-photos: /img/all/dailyen-05.jpg
+photos: /img/2018/dailyen-05.jpg
 keywords: DailyEnglish
 description: 每天分享一个短语，今天的短语是 by the skin of one's teeth
 date: 2018-06-29 09:18:00

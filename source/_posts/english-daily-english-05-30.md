@@ -1,7 +1,6 @@
 ---
-title: 每日英语 {{ date }}
+title: '每日英语 05-30'
 entitle: ''
-date: {{ date }}
 categories:
   - talk
 tags:
@@ -12,29 +11,29 @@ authorAbout: 'https://github.com/zhmhhu'
 avatar: /images/userpic.jpg
 authorLink: 'https://github.com/zhmhhu'
 authorDesc: 在科技和人文的世界里翱翔
-photos: /img/2018/dailyen-01.jpg
+photos: /img/2018/dailyen-08.jpg
 keywords: DailyEnglish
-description: 每天分享一个短语，今天的短语是 ...
+description: 每天分享一个短语，今天的短语是 wear my heart upon  my sleeve
+date: 2018-05-30 09:10:32
 ---
 
-Today is .... It’s our ... day on the June.
+Today is Wednesday. 
 
 ## 今日短语
 
 今天的短语是
 
-...
+wear my heart upon  my sleeve
 
 ## 例句
 
 说说你对这句话的理解吧:
 
-There is a sentence.
+When I told him I loved him, he broke up with me. I'll never wear my heart on my sleeve again.
 
 思考一下，下一篇文章中我们揭晓答案.
 
 ## 上期解答
 
-上一篇中我们提到的短语...它的意思是...
+很遗憾，上期没有短语。
 
-你学会了吗？
