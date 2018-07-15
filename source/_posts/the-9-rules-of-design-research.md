@@ -10,7 +10,7 @@ author: 赵小生
 authorAbout: 'https://github.com/zhmhhu'
 avatar: /images/userpic.jpg
 authorLink: 'https://github.com/zhmhhu'
-authorDesc: 在科技和人文的世界里翱翔
+authorDesc: 不会讲故事的程序员不是好的水利工程师
 photos: https://cdn-images-1.medium.com/max/2000/1*Q5-y_Q5CnX4oKHnlM5vUOA.jpeg
 date: 2018-03-12 16:33:02
 keywords:

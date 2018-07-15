@@ -2,25 +2,29 @@
 title: Markdown基础语法
 entitle: 'markdown-basic-syntax'
 categories:
-  - resource
+  - technology
 tags:
   - website
 author: 赵小生
 authorAbout: 'https://github.com/zhmhhu'
 avatar: /images/userpic.jpg
 authorLink: 'https://github.com/zhmhhu'
-authorDesc: 在科技和人文的世界里翱翔
+authorDesc: 不会讲故事的程序员不是好的水利工程师
 keywords:
 date: 2018-01-15 13:50:27
 description: Markdown 是一种轻量级标记语言，它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML(或者HTML)文档，其中最重要的设计是可读性，也就是说这个语言应该要能直接在字面上被阅读，而不用被一些格式化指令标记 
-photos: /images/default-photos.jpg
+photos: https://ws3.sinaimg.cn/large/006tNc79gy1ftakw808dbj30io0ccafs.jpg
 ---
+
+![](https://ws3.sinaimg.cn/large/006tNc79gy1ftakw808dbj30io0ccafs.jpg)
 
 ## 简介
 
-Markdown 是一种轻量级标记语言，于2004年由约翰·格鲁伯（英语：John Gruber）创造。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML(或者HTML)文档”，其中最重要的设计是可读性，也就是说这个语言应该要能直接在字面上被阅读，而不用被一些格式化指令标记 (比如 HTML)。Markdown 语法受到一些既有 text-to-HTML 格式的影响，包括 Setext、atx、Textile、reStructuredText、Grutatext 和 EtText，这其中有一部分是在电子邮件中已有的纯文本标记语言。
+Markdown 是一种轻量级标记语言，使用非常广泛。目前为止，本博客中的内容全部使用 Markdown 书写。
 
-Markdown文件会被被最终解析成HTML（或XHTML）文本。实现一个markdown解释引擎并不困难，但这里并不讨论。
+Markdown 于2004年由约翰·格鲁伯（英语：John Gruber）创造。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML(或者HTML)文档”，其中最重要的设计是可读性，也就是说这个语言应该要能直接在字面上被阅读，而不用被一些格式化指令标记 (比如 HTML)。
+
+Markdown 文件会被被最终解析成HTML（或XHTML）文本。因此在Markdown直接写 HTML 也是可以的。
 
 ## 基本语法
 

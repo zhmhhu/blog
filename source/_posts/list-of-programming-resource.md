@@ -11,7 +11,7 @@ author: 赵小生
 authorAbout: 'https://github.com/zhmhhu'
 avatar: /images/userpic.jpg
 authorLink: 'https://github.com/zhmhhu'
-authorDesc: 在科技和人文的世界里翱翔
+authorDesc: 不会讲故事的程序员不是好的水利工程师
 keywords:
 description: 编程资源列表，包括编程工具，编程语言，框架和脚手架，类库和插件，以及编辑器，等等
 photos: https://ws1.sinaimg.cn/large/006tNc79gy1fsuer0hs1fj30xc0m9di1.jpg

@@ -3,14 +3,14 @@ title: {{ title }}
 entitle: ''
 date: {{ date }}
 categories: 
-- big-front-end
+- coding
 tags: 
 - javascript
 author: 赵小生
 authorAbout: https://github.com/zhmhhu
 avatar: /images/userpic.jpg
 authorLink: https://github.com/zhmhhu
-authorDesc: 在科技和人文的世界里翱翔
+authorDesc: 不会讲故事的程序员不是好的水利工程师
 keywords: 
 description: 
 photos: /images/default-photos.jpg

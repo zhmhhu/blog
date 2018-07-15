@@ -2,7 +2,7 @@
 title: 【译】为什么 VueX 是前端与 API 之间的完美接口
 entitle: 'Why VueX Is The Perfect Interface Between Frontend and API'
 categories:
-  - big-front-end
+  - coding
 tags:
   - 翻译
   - 掘金翻译计划
@@ -11,7 +11,7 @@ author: 赵小生
 authorAbout: 'https://github.com/zhmhhu'
 avatar: /images/userpic.jpg
 authorLink: 'https://github.com/zhmhhu'
-authorDesc: 在科技和人文的世界里翱翔
+authorDesc: 不会讲故事的程序员不是好的水利工程师
 photos: https://ws2.sinaimg.cn/large/006tNc79gy1fsuftjv39pj30o50dpjrw.jpg
 date: 2018-06-04 16:18:47
 keywords: VueX

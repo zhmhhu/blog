@@ -2,14 +2,14 @@
 title: CSS中的元素分类
 entitle: 'css element classify'
 categories:
-  - big-front-end
+  - coding
 tags:
   - CSS
 author: 赵小生
 authorAbout: 'https://github.com/zhmhhu'
 avatar: /images/userpic.jpg
 authorLink: 'https://github.com/zhmhhu'
-authorDesc: 在科技和人文的世界里翱翔
+authorDesc: 不会讲故事的程序员不是好的水利工程师
 date: 2018-01-14 13:50:27
 keywords:
 description: 元素是文档结构的基础，在CSS中，每个元素生成了一个包含了元素内容的框（box，也译为“盒子”）。但是不同的元素显示的方式会有所不同。

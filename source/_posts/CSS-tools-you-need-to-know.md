@@ -5,12 +5,11 @@ categories:
   - resource
 tags:
   - CSS
-  - NiceTools
 author: 赵小生
 authorAbout: 'https://github.com/zhmhhu'
 avatar: /images/userpic.jpg
 authorLink: 'https://github.com/zhmhhu'
-authorDesc: 在科技和人文的世界里翱翔
+authorDesc: 不会讲故事的程序员不是好的水利工程师
 date: 2018-01-30 17:50:45
 keywords:
 description: WEB程序员会经常发现自己的或别人的CSS文件里有大量的冗余代码或错误或能够大量优化的地方。如果你经常使用静态编程语言(比如，Java，C语言)等，你会发现实用的IDE工具会给编程带来巨大的效率

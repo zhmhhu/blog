@@ -2,14 +2,14 @@
 title: CSS中的定位与浮动
 entitle: ''
 categories:
-  - big-front-end
+  - coding
 tags:
   - CSS
 author: 赵小生
 authorAbout: 'https://github.com/zhmhhu'
 avatar: /images/userpic.jpg
 authorLink: 'https://github.com/zhmhhu'
-authorDesc: 在科技和人文的世界里翱翔
+authorDesc: 不会讲故事的程序员不是好的水利工程师
 date: 2018-01-24 21:50:27
 keywords:
 description: 本文主要讲述CSS中的三种定位样式static、relative和absolute的区别以及浮动元素的特征。

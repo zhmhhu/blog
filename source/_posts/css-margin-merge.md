@@ -2,14 +2,14 @@
 title: CSS外边距合并的几种情况
 entitle: 'css margin merge'
 categories:
-  - big-front-end
+  - coding
 tags:
   - CSS
 author: 赵小生
 authorAbout: 'https://github.com/zhmhhu'
 avatar: /images/userpic.jpg
 authorLink: 'https://github.com/zhmhhu'
-authorDesc: 在科技和人文的世界里翱翔
+authorDesc: 不会讲故事的程序员不是好的水利工程师
 date: 2018-01-13 21:11:27
 keywords:
 description: 外边距合并指的是，当两个垂直外边距相遇时，它们将形成一个外边距。合并后的外边距的高度等于两个发生合并的外边距的高度中的较大者。

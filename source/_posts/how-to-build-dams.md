@@ -2,18 +2,18 @@
 title: 大坝是如何建起来的
 entitle: 'how-to-build-dams'
 categories:
-  - talk
+  - technology
 tags:
   - 水利
 author: 赵小生
 authorAbout: 'https://github.com/zhmhhu'
 avatar: /images/userpic.jpg
 authorLink: 'https://github.com/zhmhhu'
-authorDesc: 在科技和人文的世界里翱翔
+authorDesc: 不会讲故事的程序员不是好的水利工程师
 photos: https://ws3.sinaimg.cn/large/006tKfTcgy1ft2pdq3yf4j30dw09xab1.jpg
 date: 2018-07-08 19:15:14
 keywords:
-description:
+description: 在江河上建大坝需要经过以下五个步骤
 ---
 
 在江河上建大坝需要经过以下几个步骤

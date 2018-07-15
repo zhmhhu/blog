@@ -27,8 +27,8 @@ siteBuildingTime: 12/24/2017
 ## Name order decide show index.The name also called category alias,so you must set category alias before start server.
 ## BTW,'category_map' and 'tag_map' field in site '_config.yml' file must one to one correspondence with menus below.
 menu:
-   前端: big-front-end
-   后台: server-side
+   代码: coding
+   科技: technology
    设计: design
    杂谈: talk
    资源: resource
@@ -43,7 +43,7 @@ leftPagesMenu:
 
 # cover info config
 coverTitle: 传播科技，关注人文
-coverDescription: 一个关注技术与人文的博客
+coverDescription: 写更少的代码，过更好的生活
 
 # sns url
 sns:

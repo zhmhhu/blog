@@ -2,18 +2,18 @@
 title: 如何监测大坝安全
 entitle: 'how-to-monitor-dams-safety'
 categories:
-  - talk
+  - technology
 tags:
   - 水利
 author: 赵小生
 authorAbout: 'https://github.com/zhmhhu'
 avatar: /images/userpic.jpg
 authorLink: 'https://github.com/zhmhhu'
-authorDesc: 在科技和人文的世界里翱翔
-photos: /images/default-photos.jpg
+authorDesc: 不会讲故事的程序员不是好的水利工程师
+photos: https://ws4.sinaimg.cn/large/006tNc79gy1ft3ep9zxl6j30sg0lce01.jpg)
 date: 2018-07-08 19:42:42
 keywords:
-description:
+description: 上一篇我们讨论了如何修筑大坝。这里我们讨论在大坝修筑完成后，如何监测它的安全状态。
 ---
 
 上一篇我们讨论了如何修筑大坝。这里我们讨论在大坝修筑完成后，如何监测它的安全状态。

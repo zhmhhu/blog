@@ -2,14 +2,14 @@
 title: java语言中Object转为String的几种形式
 entitle: 'java-object-string'
 categories:
-  - server-side
+  - coding
 tags:
   - java
 author: 赵小生
 authorAbout: 'https://github.com/zhmhhu'
 avatar: /images/userpic.jpg
 authorLink: 'https://github.com/zhmhhu'
-authorDesc: 在科技和人文的世界里翱翔
+authorDesc: 不会讲故事的程序员不是好的水利工程师
 date: 2016-01-13 16:49:00
 keywords:
 description: 在java项目的实际开发和应用中，常常需要用到将对象转为String这一基本功能。本文将对常用的转换方法进行一个总结。常用的方法有Object.toString()，(String)要转换的对象，String.valueOf(Object)等。下面对这些方法一一进行分析。
