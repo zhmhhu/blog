@@ -1,0 +1,4 @@
+/* 修改字体大小 */
+body {
+    font: 16px/1.7 "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", "WenQuanYi Micro Hei", sans-serif;
+}

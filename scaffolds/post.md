@@ -1,6 +1,6 @@
 ---
 title: {{ title }}
-entitle: ''
+entitle: {{ title }}
 date: {{ date }}
 categories: 
 - coding
