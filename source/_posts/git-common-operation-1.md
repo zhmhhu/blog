@@ -13,7 +13,7 @@ authorDesc: 不会讲故事的程序员不是好的水利工程师
 photos: https://ws3.sinaimg.cn/large/006tNbRwgy1fv7u6mcbffj30go090wej.jpg
 date: 2018-07-13 16:24:54
 keywords:
-description:
+description: 如何撤销已提交的 commits？如何清除工作目录中所有没有 tracked 过的文件？
 ---
 
 这里列出几个我经常使用的，但又不怎么容易记住的 git 操作。
