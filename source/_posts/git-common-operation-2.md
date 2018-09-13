@@ -10,10 +10,10 @@ authorAbout: 'https://github.com/zhmhhu'
 avatar: /images/userpic.jpg
 authorLink: 'https://github.com/zhmhhu'
 authorDesc: 不会讲故事的程序员不是好的水利工程师
-photos: /images/default-photos.jpg
+photos: https://ws4.sinaimg.cn/large/006tNbRwgy1fv7u88cfidj30j407edfx.jpg
 date: 2018-09-13 09:04:38
 keywords:
-description:
+description: 删除的远程仓库，如何重新连接？将远程git仓库里的指定分支拉取到本地（本地不存在的分支）？如何保持 github 上 fork 的项目与原项目同步？
 ---
 
 ## 删除的远程仓库，如何重新连接？

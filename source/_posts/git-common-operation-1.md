@@ -10,7 +10,7 @@ authorAbout: 'https://github.com/zhmhhu'
 avatar: /images/userpic.jpg
 authorLink: 'https://github.com/zhmhhu'
 authorDesc: 不会讲故事的程序员不是好的水利工程师
-photos: /images/default-photos.jpg
+photos: https://ws3.sinaimg.cn/large/006tNbRwgy1fv7u6mcbffj30go090wej.jpg
 date: 2018-07-13 16:24:54
 keywords:
 description:
