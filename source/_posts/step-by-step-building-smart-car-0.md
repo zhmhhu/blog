@@ -2,9 +2,9 @@
 title: 手把手教你打造智能小车（0）-写在前面的话
 entitle: step-by-step-building-smart-car-0
 categories:
-  - coding
+  - technology
 tags:
-  - javascript
+  - 黑科技
 author: 赵小生
 authorAbout: 'https://github.com/zhmhhu'
 avatar: /images/userpic.jpg
