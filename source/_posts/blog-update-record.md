@@ -15,6 +15,9 @@ keywords:
 description: 记录博客更新日志。包含样式、插件、主题、功能的更新，不包含对内容的更新和整理。
 photos: /images/default-photos.jpg
 ---
+## 2018-09-24
+中秋节快乐！今天修改了文章模板，增加了显示上一篇和下一篇的功能，参考[这篇文章](https://www.jianshu.com/p/eb4e722be124)
+
 ## 2018-09-13
 修改文章的显示样式，把文章中的 photos 放在文章顶部显示。
 
