@@ -109,7 +109,7 @@ state 可以设置为 0/GPIO.LOW/False 或者 1/ GPIO.HIGH / True。如果编码
 ![](https://wx3.sinaimg.cn/mw690/0060lm7Tly1fvkgf0zys3j30pa0e8kep.jpg
 )
 
-远程连接树莓派之后，先新建一个文件目录 pi_ws，在目录下新建文件 LED.py。
+远程连接树莓派之后，我们新建一个名为 myPiCar 的工作目录，在目录下新建文件 LED.py。
 
 将下面的代码手动输入到 LED.py 里面：
 ```
@@ -119,13 +119,13 @@ import time
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(25, GPIO.OUT)
 ```
-保存文件之后，打开命令行工具，使用 cd 命令切换到 pi_ws 文件目录
+保存文件之后，打开命令行工具，使用 cd 命令切换到 myPiCar 文件目录
 ```
-pi@raspberrypi:~ $ cd /pi_ws
+pi@raspberrypi:~ $ cd /myPiCar
 ```
 运行 LED.py
 ```
-pi@raspberrypi:~/pi_ws $ python LED.py
+pi@raspberrypi:~/myPiCar $ python LED.py
 ```
 可以看到 LED 灯已经亮了。
 
