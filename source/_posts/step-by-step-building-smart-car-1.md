@@ -1,5 +1,5 @@
 ---
-title: 手把手教你打造智能小车（1）-树莓派及其他配件简介
+title: 手把手教你打造智能小车（1）-树莓派及其使用配置
 entitle: step-by-step-building-smart-car-1
 categories:
   - technology
@@ -10,31 +10,31 @@ authorAbout: 'https://github.com/zhmhhu'
 avatar: /images/userpic.jpg
 authorLink: 'https://github.com/zhmhhu'
 authorDesc: 不会讲故事的程序员不是好的水利工程师
-photos: https://ws2.sinaimg.cn/large/006tNc79gy1fvbic26yckj31kw0vwhdv.jpg
+photos: https://ws4.sinaimg.cn/large/006tNbRwly1fwn4qmcbbwj30hs0bzt9j.jpg
 date: 2018-09-16 16:39:04
 keywords:
-description: 打造智能小车的核心部件就是树莓派。树莓派是一个只有信用卡大小的微型电脑，它的功能足够强大，具有普通计算机的所有硬件配置。
+description: 打造智能小车的核心部件就是树莓派。树莓派不是蛋黄派，没有馅儿也不能吃，而是一张只有信用卡大小的电路板。它的功能足够强大，具有普通计算机的所有硬件配置。
 ---
 
-## 1 树莓派及其使用配置
+## 1 简介
 
-### 1.1 简介
+打造智能小车的核心部件就是树莓派。树莓派不是蛋黄派，没有馅儿也不能吃，而是一张只有信用卡大小的电路板，其英文名是 Raspberry PI。树莓派的功能足够强大，配置也都很齐全，具有普通计算机的所有硬件配置，比如CPU、内存、显卡、声卡、wifi、蓝牙、USB接口和网线接口。可以说，树莓派就是一台微型计算机。不仅如此，它还带有 40 个引脚，通过引脚可以接入设备，比如 LED 灯、传感器、驱动板等等，从而探测信号以及发出控制指令。
+![](https://ws4.sinaimg.cn/large/006tNbRwly1fwn4qmcbbwj30hs0bzt9j.jpg)
 
-打造智能小车的核心部件就是树莓派。树莓派是一个只有信用卡大小的微型电脑，它的功能足够强大，具有普通计算机的所有硬件配置，比如CPU、内存、显卡、声卡、wifi、蓝牙、USB接口和网线接口。可以说，树莓派就是一部浓缩版的计算机。不仅如此，它还带有 40 个引脚，通过引脚可以控制其他设备，进而增加功能。
+我这里使用的树莓派型号是 Raspberry PI 3 Model B（以下简称 3B），于2016年2月发布，目前售价人民币 200 多元。现在已经有了功能更加强大的 3B+，与 3B 相比，升级了内存和网卡等等，售价也更高。点击[这里](http://shumeipai.nxez.com/raspberry-pi-version-compare)可以查看树莓派各版本对照表。与普通计算机相比，树莓派的价格简直是便宜得不要不要的。
 
-我这里使用的树莓派型号是 Raspberry PI 3 Model B（以下简称 3B），现在已经有了功能更加强大的 3B+，与 3B 相比，升级了内存和网卡等等，售价也更高。点击[这里](http://shumeipai.nxez.com/raspberry-pi-version-compare)可以查看树莓派各版本对照表。3B 在某宝的售价是 200 左右。与普通计算机相比，简直是便宜得不要不要的。
+## 2 制作树莓派的 SD 卡
 
-### 1.2 制作树莓派的SD卡
+树莓派本身不带有硬盘，SD卡就是它的硬盘，因此所有的操作系统文件都要写到 SD 卡里面。也就是说，如果树莓派里的软件坏了启动不了，换一张装有全新操作系统的 SD 卡就可以了。所以树莓派本身一般不会有软件故障，故障都出在 SD 卡上。
 
-树莓派本身不带有硬盘，SD卡就是它的硬盘。所有的操作系统文件都要写到 SD 卡里面。换句话说，如果树莓派里的软件坏了启动不了，换一张装有全新操作系统的 SD 卡就可以了。所以树莓派本身不会有软件故障，故障都出在 SD 卡上。
-在使用树莓派之前，要先把操作系统刷进去。刷机的操作也很简单，到官方网站上下载安装镜像，用刷机软件烧录进 SD 卡就可以了。点击[这里](http://shumeipai.nxez.com/download#tools)查看详细教程。
+在使用树莓派之前，要先把操作系统刷进去。刷机的操作也很简单，到官方网站上下载安装镜像，用刷机软件烧录进 SD 卡就可以了。不管你用的是 windows、MAC 或 Linux 系统的个人电脑，都可以借助刷机软件轻松制作 树莓派 SD 卡。点击[这里](http://shumeipai.nxez.com/download#tools)查看详细教程。
 
-下面以 MAC Book Pro 为例讲解烧录 SD 卡的操作过程
+MAC 系统甚至可以不使用刷机工具，直接使用命令行就可以了。下面以 MAC Book Pro 为例讲解烧录树莓派 SD 卡的操作过程。
+
 1. 插入 SD 卡
 
-首先要将内存卡插入到电脑上 
-通过命令 `df -lh` 
-查看当前已挂载的卷，判断 SD 卡是否被读取
+首先要将 SD 卡插入到电脑上（你可能需要一张具有 USB 接口的读卡器）。打开命令行，通过命令 `df -lh` 
+查看当前已挂载的卷，判断 SD 卡是否被读取。
 ```
 xxdeMacBook-Pro:Downloads administrator$ df -lh
 Filesystem     Size   Used  Avail Capacity iused      ifree %iused  Mounted on
@@ -42,7 +42,7 @@ Filesystem     Size   Used  Avail Capacity iused      ifree %iused  Mounted on
 /dev/disk2s1   15Gi  2.4Mi   15Gi     1%       0          0  100%   /Volumes/SD
 ```
 我们可以通过属性，如 Size Used Avail 等，可以判断出 
-当前 disk2s1 就是我们卡的分区在系统里对应的文件，如果你的sd卡有多个分区，那么可能还会有disk2s2,disk2s3…
+当前 disk2s1 就是 SD 卡在系统里对应的分区。如果你的sd卡有多个分区，那么可能还会有disk2s2,disk2s3…
 
 2. 卸载 SD 卡
 
@@ -75,15 +75,15 @@ iluhaodeMacBook-Pro:Downloads administrator$ diskutil list
    0:     FDisk_partition_scheme                        *15.9 GB    disk2
    1:             Windows_FAT_32 SD                      15.9 GB    disk2s1
 ```
-根据现实信息 SIZE 可以判断 /dev/disk2 是 SD 卡，这个要根据自己的情况判断。千万不要写错，比如说把系统烧到了电脑的硬盘上，笔者没有试过，如果有人感兴趣，可以尝试一下。
+根据显示信息 SIZE 可以判断 /dev/disk2 是 SD 卡，这个要根据自己的 SD 卡的实际情况判断。
 
 4. 烧写系统
 
-通过 cd 命令进入镜像所在目录，然后通过命令
+通过 cd 命令进入镜像文件所在目录，然后通过命令
 ```
 sudo dd bs=4m if=xxx of=yyy
 ```
-进行系统的烧写。if=“xxxx” of=“yyyy”中 “xxxx”代表镜像的名称，“yyyy”代表我们要烧写的 SD 卡。
+进行系统的烧写。if=“xxxx” of=“yyyy”中 “xxxx”代表镜像的名称，“yyyy”代表我们要烧写的 SD 卡的设备号。例如：
 ```
 xxdeMacBook-Pro:Downloads administrator$ sudo dd bs=4m if=rpi_35_v6_1_2_3_jessie_kernel_4_4_50.img of=/dev/disk2
 Password:
@@ -91,7 +91,8 @@ Password:
 1062+1 records out
 4454400000 bytes transferred in 339.766726 secs (13110171 bytes/sec)
 ```
-过几分钟，出现上面的信息，表明系统刷成功了。
+提示 Password 时，需要输入你的计算机密码，输入过程中，可能不会显示任何内容，输完之后，按下 Enter 键。
+过几分钟（这个过程可能会比较长，耐心等待），出现“records in, records out”之类的信息，表明系统刷成功了。
 
 5. 卸载 SD 卡
 
@@ -100,13 +101,13 @@ Password:
 xxdeMacBook-Pro:Downloads administrator$ diskutil unmountDisk /dev/disk2
 Unmount of all volumes on disk2 was successful
 ```
-卸载 SD 卡后，将 SD 卡插到树莓派上即可。
+这样，树莓派的 SD 卡就制作好了，此时取下 SD 卡。
 
-这样，树莓派的 SD 卡就制作好了。
+## 3 启动配置
 
-### 1.3 启动配置
+把装有操作系统的 SD 卡 插入树莓派卡槽，通电，系统会自动开机。
 
-把装有操作系统的 SD 卡 插入树莓派卡槽，通电，系统会自动开机。在使用之前，要对其进行初始配置。为了看到开机画面，可以使用 HDMI 线连接树莓派和 具有 HDMI 接口的显示器，或者电视机也行。
+在使用之前，要对其进行初始配置。为了看到开机画面，可以使用 HDMI 线连接树莓派和具有 HDMI 接口的显示器，比如电脑显示器，或者电视机。
 
 只初始配置需要连接显示器，之后的使用过程，我们可以用其他电脑远程登录树莓派，不再需要接显示器了。
 
@@ -115,15 +116,30 @@ Unmount of all volumes on disk2 was successful
 下图是树莓派启动后的默认桌面
 ![](https://ws2.sinaimg.cn/large/006tNc79gy1fvbic26yckj31kw0vwhdv.jpg)
 
-对了，输入用户名和密码的时候，你需要鼠标和键盘，把 USB 接口直接插上去就可以使用了，就跟你用其他的电脑一样。
+输入用户名和密码的时候，你需要鼠标和键盘，把 USB 接口直接插上去就可以使用了，就跟你用其他的电脑一样。
 
 启动配置的图文并茂教程请查看[这里](http://shumeipai.nxez.com/2018/07/09/raspbian-2018-06-17-new-features-and-configuration.html)，做到重启一步就可以了，后面的操作不一定跟它一样。
 
-### 1.4 远程连接
+树莓派的默认用户名是pi，默认密码是 raspberry，可以使用命令行修改密码。
+```
+sudo passwd pi 
+```
+系统会提示用户输入两遍新密码，之后就修改成功了。树莓派有一个 root 账号，但默认锁定，需由用户手动启用。启用 root 账号之前，需先为其设定密码，方法与为 pi 账号修改密码相同。
+```
+sudo passwd root
+```
+用户输入两遍的root密码，在输入以下命令对 root 账号解锁，并跳转到 root 账号。
+```
+sudo passwd --unlock root   #解锁root账号
+su root                     #跳转到root账号
+```
+root 账号的权限较高，请不要在此账号下随意修改系统文件。
+
+## 4 远程连接
 
 每次使用树莓派都要接显示器和键盘鼠标是不是很麻烦？其实有更好的方式就是远程连接。通过远程连接，可以实现与直接操作一样的效果，何乐而不为？
 
-实现远程连接需要安装 VNCserver，幸运的是，最新的操作系统默认自带VNCserver。如果你不幸刷的安装包是没有 VNCserver 的也没有关系，装一个就是了。
+实现远程连接需要安装 VNCserver，幸运的是，最新的操作系统默认自带 VNCserver。如果你不幸刷的系统是没有 VNCserver 的也没有关系，装一个就是了。
 
 打开树莓派的命令行界面，输入以下命令
 ```
@@ -131,11 +147,9 @@ sudo apt-get update
 sudo apt-get install realvnc-vnc-server realvnc-vnc-viewer
 ```
 
-稍等片刻，就装好VNCserver，可能要重启才会生效。
+稍等片刻，就装好 VNCserver，可能要重启才会生效。
 
-之后，只要开启远程连接功能就可以了。
-
-下面是开启远程连接功能的方法。
+之后，只要开启远程连接功能就可以了。下面是开启远程连接功能的方法。
 
 1. 打开命令行,输入 `sudo  raspi-config` ，将显示系统配置界面，如下图。
 
@@ -147,7 +161,7 @@ sudo apt-get install realvnc-vnc-server realvnc-vnc-viewer
 
 3. 选择 `P3 VNC`，之后选择 `True`。树莓派远程配置就完成了。
 
-下面要在你的电脑上安装 VNCserver，这样才能成功控制树莓派。
+下面要在你的电脑上安装 VNCserver，这样才能成功连接树莓派。
 
 安装方式也很简单，点击 [链接](
 https://www.realvnc.com/en/connect/download/viewer/)，根据自己的操作系统选择对应的版本下载安装就好啦。比如，我的是MAC book，就选择“MACos”，下载的安装包名为“VNC-Viewer-6.18.907-MacOSX-x86_64.dmg”
@@ -157,23 +171,4 @@ https://www.realvnc.com/en/connect/download/viewer/)，根据自己的操作系
 ![](https://ws4.sinaimg.cn/large/006tNc79gy1fvbjam6bksj30dr09j746.jpg)
 
 除了 VNCserver 之外，还有 tightvncserver 也可以进行远程连接，但个人认为不好用，因为我搞了半天，都没有配置好剪贴板共享。最后还是发现系统自带 VNCserver 很好用，推荐用这个。
-
-
-## 2. 其他配件
-
-下面这些配件就比较简单了，买过来就行，不需要配置。某宝上都有，就不给链接了，免得有做广告的嫌疑。
-
-1. LED灯，数量不限，最好5个以上吧，怕烧坏的话就多备几个，反正不贵。
-
-2. L298n 电机驱动板，1个。
-
-3. 驱动电机，4个。有些是和车架一起卖的。
-
-4. 车架及轮子等，1套。这个五花八门的太多，如果要做成跟我一样的，就到[这里](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.19052e8d0gZcV5&id=40760596290&_u=glfvo14793c)买，如果你觉得质量不够好，可以到网上找更好的。
-
-5. 杜邦线，公对母，母对母，公对公各 20 左右，多备点更好。长度以 20cm 为宜。
-
-![](https://ws1.sinaimg.cn/large/006tNc79gy1fvbkp3jawbj30sg0lcn9k.jpg)
-
-有这些就可以打造可以进行方向控制的小车了，至于做功能升级要用到的传感器，在后面的教程里会具体再说。
 
