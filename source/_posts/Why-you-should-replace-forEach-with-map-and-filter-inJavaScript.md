@@ -1,9 +1,11 @@
 ---
-title: 在 JavaScript 中 为什么你应当使用 map 和 filter 来替代 forEach
+title: 【译】在 JavaScript 中 为什么你应当使用 map 和 filter 来替代 forEach
 entitle: Why-you-should-replace-forEach-with-map-and-filter-inJavaScript
 categories:
   - coding
 tags:
+  - 翻译
+  - 掘金翻译计划
   - javascript
 author: 赵小生
 authorAbout: 'https://github.com/zhmhhu'

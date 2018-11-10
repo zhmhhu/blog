@@ -180,7 +180,7 @@ GPIO.setmode(GPIO.BOARD) # 使用BOARD引脚编号方案
 tiltPin = 11
 GPIO.setup(tiltPin, GPIO.OUT)
 tilt = GPIO.PWM(tiltPin, 50) #舵机的信号频率是 50Hz
-tilt = start(0) # 初始占空比设为0
+tilt.start(0) # 初始占空比设为0
 ```
 现在，你可以输入不同的占空比值，观察舵机的运动。让我们从2％开始，看看会发生什么（我们观察舵机从“零位”开始）：
 ```
@@ -192,7 +192,7 @@ tilt.ChangeDutyCycle(2)
 180°==>占空比13％
 完成测试后，必须停止PWM并清理GPIO：
 ```
-tilt= stop()
+tilt.stop()
 GPIO.cleanup()
 ```
 实际测试过程中，你的数据可能有所不同。

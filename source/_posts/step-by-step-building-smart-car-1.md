@@ -172,3 +172,21 @@ https://www.realvnc.com/en/connect/download/viewer/)，根据自己的操作系
 
 除了 VNCserver 之外，还有 tightvncserver 也可以进行远程连接，但个人认为不好用，因为我搞了半天，都没有配置好剪贴板共享。最后还是发现系统自带 VNCserver 很好用，推荐用这个。
 
+使用 VNC 连接到树莓派之后，可能会出现屏幕分辨率过大或过小的情况，这个时候，需要调整下分辨率。
+
+命令行输入 `sudo  raspi-config`。
+
+弹出树莓派原装系统的配置界面：
+
+![](https://ws4.sinaimg.cn/large/006tNc79gy1fvbixeu9bij30gr077dg3.jpg)
+
+![](https://ws1.sinaimg.cn/large/006tNbRwly1fwy5woekmyj30fv03y3yd.jpg)
+
+![](https://ws2.sinaimg.cn/large/006tNbRwly1fwy5wrndplj30ch05mt8j.jpg)
+
+Resolution就是“分辨率”的意思。
+
+如果你连接的是屏幕超大的电视机，可以选择最高的1920x1080分辨率。
+
+ VNC 中，shell 使用的是 xshell， 传送文件到树莓派用的是 winscp。所有的操作都是在本地局域网进行，基本上没有延时。
+
