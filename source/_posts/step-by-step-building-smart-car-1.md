@@ -190,3 +190,17 @@ Resolution就是“分辨率”的意思。
 
  VNC 中，shell 使用的是 xshell， 传送文件到树莓派用的是 winscp。所有的操作都是在本地局域网进行，基本上没有延时。
 
+ 系列目录：
+
+[《手把手教你打造智能小车（0）-写在前面的话》](https://zhmhhu.github.io/technology/2018-09-16-step-by-step-building-smart-car-0.html)
+
+[《手把手教你打造智能小车（1）-树莓派及其使用配置》](https://zhmhhu.github.io/technology/2018-09-16-step-by-step-building-smart-car-1.html)
+
+[《手把手教你打造智能小车（2）-点亮 LED 灯》](https://zhmhhu.github.io/technology/2018-09-23-step-by-step-building-smart-car-2.html)
+
+[《手把手教你打造智能小车（3）-小车跑起来》](https://zhmhhu.github.io/technology/2018-09-23-step-by-step-building-smart-car-3.html)
+
+[《手把手教你打造智能小车（4）-使用传感器自动避障》](https://zhmhhu.github.io/technology/2018-09-23-step-by-step-building-smart-car-4.html)
+
+[《手把手教你打造智能小车（5）-使用舵机打造摄像机云台》](https://zhmhhu.github.io/technology/2018-09-24-step-by-step-building-smart-car-5.html)
+

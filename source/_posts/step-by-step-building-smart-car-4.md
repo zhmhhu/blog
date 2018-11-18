@@ -142,3 +142,17 @@ GPIO.cleanup()
 保存代码并执行，然后将手挡在传感器前，就会看到 LED 灯一闪一闪的，拿开手时，LED 灯将熄灭。转动传感器上的电位器旋钮，可以发现红外传感器发出警告时，目标的距离会发生变化。选择合适的告警距离，大约 15 cm 就可以了。
 
 将超声波测距功能和红外避障功能加入到小车转向控制代码中，一个完整的自动避障小车就完成了。详细代码，见 [Github](https://github.com/zhmhhu/myPiCar)。
+
+系列目录：
+
+[《手把手教你打造智能小车（0）-写在前面的话》](https://zhmhhu.github.io/technology/2018-09-16-step-by-step-building-smart-car-0.html)
+
+[《手把手教你打造智能小车（1）-树莓派及其使用配置》](https://zhmhhu.github.io/technology/2018-09-16-step-by-step-building-smart-car-1.html)
+
+[《手把手教你打造智能小车（2）-点亮 LED 灯》](https://zhmhhu.github.io/technology/2018-09-23-step-by-step-building-smart-car-2.html)
+
+[《手把手教你打造智能小车（3）-小车跑起来》](https://zhmhhu.github.io/technology/2018-09-23-step-by-step-building-smart-car-3.html)
+
+[《手把手教你打造智能小车（4）-使用传感器自动避障》](https://zhmhhu.github.io/technology/2018-09-23-step-by-step-building-smart-car-4.html)
+
+[《手把手教你打造智能小车（5）-使用舵机打造摄像机云台》](https://zhmhhu.github.io/technology/2018-09-24-step-by-step-building-smart-car-5.html)
