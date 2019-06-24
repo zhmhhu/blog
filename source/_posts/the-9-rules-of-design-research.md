@@ -2,8 +2,9 @@
 title: 【译】设计研究的 9 条规则
 entitle: 'The 9 Rules of Design Research'
 categories:
-  - design
+  - humanity
 tags:
+  - 设计
   - 翻译
   - 掘金翻译计划
 author: 赵小生

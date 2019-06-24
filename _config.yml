@@ -17,7 +17,7 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://zhmhhu.github.io
 root: /
-permalink: :category/:year-:month-:day-:title.html
+permalink: :year-:month-:day-:title.html
 permalink_defaults:
   lang: en
 
@@ -62,26 +62,25 @@ default_category: coding
 category_map:
    代码: coding
    科技: technology
-   设计: design
+   人文: humanity
    杂谈: talk
    资源: resource
    
 tag_map:
-  iOS: iOS
-  hexo: hexo
   python: python
   java: java
-  网络爬虫: webcrawler
-  sketch: sketch
-  网站: website
-  后台: serverSide
-  CSS: CSS
   JavaScript: javascript
-  vue: vue
+  
   黑科技: CoolTech
+  人工智能: AI
+  开发者: developer
+
+  设计: design
+
   每日英语: DailyEnglish
   翻译: translate
   掘金翻译计划: juejin-translate
+
   水利: water-conservation
   感想: thinking
 

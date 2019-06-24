@@ -29,7 +29,7 @@ siteBuildingTime: 12/24/2017
 menu:
    代码: coding
    科技: technology
-   设计: design
+   人文: humanity
    杂谈: talk
    资源: resource
 
@@ -52,7 +52,7 @@ sns:
   github: https://github.com/zhmhhu
 
 # your article copyright or content declare
-postDeclare: 本文代表个人观点，内容仅供参考。若有不恰当之处，望不吝赐教！评论需科学上网才可查看！
+postDeclare: 本文代表个人观点，内容仅供参考。若有不恰当之处，望不吝赐教！
 
 # Git-pages server info
 pageServerName: Coding

@@ -139,7 +139,17 @@ root 账号的权限较高，请不要在此账号下随意修改系统文件。
 
 每次使用树莓派都要接显示器和键盘鼠标是不是很麻烦？其实有更好的方式就是远程连接。通过远程连接，可以实现与直接操作一样的效果，何乐而不为？
 
-实现远程连接需要安装 VNCserver，幸运的是，最新的操作系统默认自带 VNCserver。如果你不幸刷的系统是没有 VNCserver 的也没有关系，装一个就是了。
+### 4.1 SSH 远程连接
+
+树莓派默认提供 SSH 方式连接。
+
+### 4.2 远程桌面
+
+SSH 远程连接并不是很方面，因为看不到系统桌面，对于用惯了 Windows 操作系统的人，一行行命令让人感觉很难受，就像回到了 DOS 时代。
+
+有没有更好的办法呢?答案是肯定的。我们可以使用远程桌面连接树莓派。
+
+实现远程桌面需要安装 VNCserver，幸运的是，最新的树莓派操作系统默认自带 VNCserver。如果你不幸刷的系统是没有 VNCserver 的也没有关系，装一个就是了。
 
 打开树莓派的命令行界面，输入以下命令
 ```
@@ -161,10 +171,11 @@ sudo apt-get install realvnc-vnc-server realvnc-vnc-viewer
 
 3. 选择 `P3 VNC`，之后选择 `True`。树莓派远程配置就完成了。
 
-下面要在你的电脑上安装 VNCserver，这样才能成功连接树莓派。
+下面还要在你自己的电脑上安装 VNCserver，这样才能成功连接树莓派。
+
 
 安装方式也很简单，点击 [链接](
-https://www.realvnc.com/en/connect/download/viewer/)，根据自己的操作系统选择对应的版本下载安装就好啦。比如，我的是MAC book，就选择“MACos”，下载的安装包名为“VNC-Viewer-6.18.907-MacOSX-x86_64.dmg”
+https://www.realvnc.com/en/connect/download/viewer/)，根据自己的操作系统选择对应的版本下载安装就好啦。比如，我的是 MAC book，就选择“MACos”，下载的安装包名为“VNC-Viewer-6.18.907-MacOSX-x86_64.dmg”
 
 安装完之后，打开，并输入树莓派的内网 IP 地址，之后输入用户名和密码就可以成功连接了。
 
@@ -186,9 +197,57 @@ https://www.realvnc.com/en/connect/download/viewer/)，根据自己的操作系
 
 Resolution就是“分辨率”的意思。
 
-如果你连接的是屏幕超大的电视机，可以选择最高的1920x1080分辨率。
+如果你连接的是屏幕超大的电视机，可以选择最高的 1920x1080 分辨率。
 
  VNC 中，shell 使用的是 xshell， 传送文件到树莓派用的是 winscp。所有的操作都是在本地局域网进行，基本上没有延时。
+
+ ## 5 更换软件源
+
+ 树莓派系统安装后默认使用国外的镜像源来更新软件，由于众所周知的原因，国内访问速度非常慢，因此需要换成国内源。树莓派官方提供了一个[更新源列表](http://www.raspbian.org/RaspbianMirrors)，在这里我们使用中科大的软件源和系统源。
+1. 登陆到树莓派。你可以通过屏幕键鼠直接打开终端或者通过SSH登陆到树莓派。
+2. 备份源文件。执行如下命令：
+```
+sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
+
+sudo cp /etc/apt/sources.list.d/raspi.list /etc/apt/sources.list.d/raspi.list.bak
+```
+
+3. 修改软件更新源，执行如下命令：
+sudo nano /etc/apt/sources.list
+
+4. 将第一行修改成中科大的软件源地址，「Ctrl+O」进行保存，然后回车，「Ctrl+X」退出。
+```
+deb http://mirrors.ustc.edu.cn/raspbian/raspbian/ stretch main contrib non-free rpi
+```
+
+5. 同步更新源，执行如下命令：
+```
+sudo apt-get update
+```
+稍等片刻即完成。
+
+软件源修改之后，每次执行 `sudo apt-get` 命令时，都会在此次指定的镜像源中下载安装包。
+
+此外，raspibian 操作系统的更新也需要指定新的镜像源。这样在系统更新时，速度会更快。方法如下：
+
+1. 登陆到树莓派。
+2. 备份源文件。执行如下命令：
+```
+sudo cp /etc/apt/sources.list.d/raspi.list /etc/apt/sources.list.d/raspi.list.bak
+```
+3. 修改系统更新源，执行如下命令：
+```
+sudo nano /etc/apt/sources.list.d/raspi.list
+```
+4. 将第一行修改成中科大的系统源地址，「Ctrl+O」进行保存，然后回车，「Ctrl+X」退出。
+deb http://mirrors.ustc.edu.cn/archive.raspberrypi.org/debian/ stretch main ui
+
+5. 更新升级以安装软件包，这个过程耗时较长。
+```
+sudo apt-get upgrade
+```
+如不需要更新操作系统至最新版本，可暂不执行此命令。
+
 
  系列目录：
 

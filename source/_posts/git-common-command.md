@@ -61,11 +61,11 @@ Git 对文件的操作几乎都是在四大域上进行的，所有的文件都�
 *  git reset：将暂存区的所有文件重置到当前分支的HEAD  
 *  git reset <commit> files：将暂存区的指定文件重置到指定的<commit>,<commit>既可以是commit的hash（或者hash前7位）也可以是HEAD及其祖先，HEAD~1表示HEAD的父亲，是HEAD的前一次提交，没有<commit>时默认是HEAD。  
 *  git reset [--hard|soft|mixed|merge|keep] [<commit>]：将当前的分支重设到指定的<commit>，并且根据mode有可能更新暂存区和工作目录。mode的取值可以是hard、soft、mixed、merged、keep。  
-    *  hard：重置暂存区与工作目录到指定提交，删除<commit>之后的所有提交并将HEAD指向该提交，此操作危险指数较大（应慎用）  
-    *  soft：暂存区与工作目录不会变化，仅仅删除<commit>之后的所有提交并将HEAD指向该提交  
-    *  mixed：默认的，重置暂存区到指定提交，删除<commit>之后的所有提交并将HEAD指向该提交  
+    *  hard：重置暂存区与工作目录到指定的提交，删除<commit>之后的所有提交并将 HEAD 指向该提交，此操作危险指数较大（应慎用）  
+    *  soft：暂存区与工作目录不会变化，仅仅删除<commit>之后的所有提交并将 HEAD 指向该提交  
+    *  mixed：默认的，重置暂存区到指定提交，删除<commit>之后的所有提交并将 HEAD 指向该提交  
     *  merge与keep用的比较少，暂时不讨论  
-HEAD是指向当前分支引用的指针，该指针指向在该分支上的最后一个提交的指针。这意味着HEAD将是下一个创建的提交的父亲。一般来说，把你的HEAD作为你最后一次提交的快照，是最简单的。HEAD~1表示HEAD的前一次提交，HEAD~2表示HEAD的前两次提交，以此类推  
+HEAD 是指向当前分支引用的指针，该指针指向在该分支上的最后一个提交的指针。这意味着 HEAD 将是下一个创建的提交的父亲。一般来说，把你的 HEAD 作为你最后一次提交的快照，是最简单的。HEAD~1 表示 HEAD 的前一次提交，HEAD~2 表示HEAD的前两次提交，以此类推  
 
 5. rm命令
 *  git rm files：删除工作目录的文件  

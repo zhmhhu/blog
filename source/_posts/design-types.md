@@ -2,8 +2,9 @@
 title: 【译】为什么给设计定义 UX、UI、CX、IA、IxD 和其他类型的头衔是愚蠢的行为
 entitle: 'blog update record'
 categories:
-  - design
+  - humanity
 tags:
+  - 设计
   - 翻译
   - 掘金翻译计划
 author: 赵小生
